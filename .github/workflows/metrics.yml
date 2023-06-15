@@ -19,7 +19,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_activity: yes
           plugin_activity_limit: 1
-          plugin_activity_visibility: public
           plugin_activity_timestamps: true
           plugin_activity_filter: all
 
@@ -58,14 +57,15 @@ jobs:
           plugin_languages: yes
           plugin_languages_limit: 4
 
-      - name: Compact display in base plugin
+      - name: People
         uses: lowlighter/metrics@latest
         with:
           user: code-with-von
           template: repository
           repo: mod-html
-          filename: metrics/lines.svg
+          filename: metrics/people.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: repositories
-          plugin_lines: yes
+          base: ""
+          plugin_people: yes
+          plugin_people_types: stargazers, watchers, sponsors
 
