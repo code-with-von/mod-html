@@ -74,17 +74,13 @@ jobs:
           plugin_people: yes
           plugin_people_types: stargazers, watchers, sponsors
 
-      - name: Projects
+      - name: Sponsors
         uses: lowlighter/metrics@latest
         with:
-          user: code-with-von
-          template: repository
-          repo: mod-html
-          config_timezone: America/Fortaleza
-          filename: metrics/projects.svg
+          filename: metrics/sponsors.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
-          plugin_projects: yes
-          plugin_projects_repositories: code-with-von/projects/6 
-          plugin_projects_descriptions: yes
+          plugin_sponsors: yes
+          plugin_sponsors_sections: goal, list
+          plugin_sponsors_past: yes
 
