@@ -27,8 +27,9 @@ Esse material está acessível na [wiki](https://github.com/code-with-von/mod-ht
 
 ![lines](metrics/lines.svg)
 
+![people](metrics/people.svg)
+
 ![contributors](metrics/contributors.svg)
 
-<!-- ![people](metrics/people.svg) -->
 </div>
 </details>
