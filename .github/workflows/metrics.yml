@@ -15,6 +15,7 @@ jobs:
           user: code-with-von
           template: repository
           repo: mod-html
+          config_timezone: America/Fortaleza
           filename: metrics/activity.svg
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_activity: yes
@@ -28,6 +29,7 @@ jobs:
           user: code-with-von
           template: repository
           repo: mod-html
+          config_timezone: America/Fortaleza
           filename: metrics/contributors.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
@@ -40,6 +42,7 @@ jobs:
           user: code-with-von
           template: repository
           repo: mod-html
+          config_timezone: America/Fortaleza
           filename: metrics/followup.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
@@ -51,6 +54,7 @@ jobs:
           user: code-with-von
           template: repository
           repo: mod-html
+          config_timezone: America/Fortaleza
           filename: metrics/languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
@@ -63,6 +67,7 @@ jobs:
           user: code-with-von
           template: repository
           repo: mod-html
+          config_timezone: America/Fortaleza
           filename: metrics/people.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
@@ -72,10 +77,14 @@ jobs:
       - name: Projects
         uses: lowlighter/metrics@latest
         with:
+          user: code-with-von
+          template: repository
+          repo: mod-html
+          config_timezone: America/Fortaleza
           filename: metrics/projects.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_projects: yes
-          plugin_projects_repositories: code-with-von/projects/6
+          plugin_projects_repositories: code-with-von/projects/6 
           plugin_projects_descriptions: yes
 
