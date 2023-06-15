@@ -25,7 +25,7 @@ Esse material está acessível na [wiki](https://github.com/code-with-von/mod-ht
 
 ![followup](metrics/followup.svg)
 
-![lines](metrics/lines.svg)
+![projects](metrics/projects.svg)
 
 ![people](metrics/people.svg)
 
