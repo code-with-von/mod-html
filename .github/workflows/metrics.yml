@@ -85,7 +85,7 @@ jobs:
           repo: mod-html
           filename: metrics/lines.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: repositories
+          base: ""
           plugin_lines: yes
           plugin_lines_sections: repositories
           plugin_lines_repositories_limit: 1
