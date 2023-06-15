@@ -73,9 +73,9 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: metrics/projects.svg
-          token: ${{ secrets.METRICS_TOKEN_WITH_SCOPES }}
+          token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_projects: yes
-          plugin_projects_repositories: code-with-von/mod-html/projects/4
+          plugin_projects_repositories: code-with-von/mod-html/projects/5
           plugin_projects_descriptions: yes
 
