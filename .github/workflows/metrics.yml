@@ -83,7 +83,7 @@ jobs:
           user: code-with-von
           template: repository
           repo: mod-html
-          filename: metrics./lines.svg
+          filename: metrics/lines.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: repositories
           plugin_lines: yes
