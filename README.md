@@ -25,11 +25,11 @@ Esse material está acessível na [wiki](https://github.com/code-with-von/mod-ht
 
 ![followup](metrics/followup.svg)
 
-![projects](metrics/projects.svg)
-
 ![people](metrics/people.svg)
 
 ![contributors](metrics/contributors.svg)
+
+![sponsors](metrics/sponsors.svg)
 
 </div>
 </details>
