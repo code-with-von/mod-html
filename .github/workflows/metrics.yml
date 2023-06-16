@@ -72,15 +72,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_people: yes
-          plugin_people_types: stargazers, watchers, sponsors
+          plugin_people_types: stargazers, watchers
 
-      - name: Sponsors
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics/sponsors.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_sponsors: yes
-          plugin_sponsors_sections: goal, list
-          plugin_sponsors_past: yes
+      
 
