@@ -73,6 +73,3 @@ jobs:
           base: ""
           plugin_people: yes
           plugin_people_types: stargazers, watchers
-
-      
-
