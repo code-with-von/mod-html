@@ -88,18 +88,18 @@
                                 <div class="details">
                                     <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#26f6e8a</div>
-                                        <div class="message">Delete metrics directory</div>
+                                        <div class="sha">#1bbba2e</div>
+                                        <div class="message">Delete other-tags directory</div>
                                     </div>
                                 </div>
-                                <div class="timestamp">16 Jun 2023, 12:44:45</div>
+                                <div class="timestamp">17 Jun 2023, 09:32:57</div>
                             </section>
                         </div>
                     </section>
                 </div>
             </section>
             <footer>
-                <span>Last updated 17 Jun 2023, 05:26:51 with lowlighter/metrics@3.33.0</span>
+                <span>Last updated 17 Jun 2023, 09:33:55 with lowlighter/metrics@3.33.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
