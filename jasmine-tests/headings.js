@@ -9,8 +9,8 @@ describe('Resultados para headings: ', () => {
     expect(h1).toBeDefined('Seu site nao contem um heading h1');
     expect(h2).toBeDefined('Seu site nao contem um heading h2');
     expect(h3).toBeDefined('Seu site nao contem um heading h3');
-    expect(h4).toBeDefined('Seu site nao contem um heading h5');
-    expect(h5).toBeDefined('Seu site nao contem um heading h6');
+    expect(h4).toBeDefined('Seu site nao contem um heading h4');
+    expect(h5).toBeDefined('Seu site nao contem um heading h5');
     expect(h6).toBeDefined('Seu site nao contem um heading h6');
   });
   if (h1) {
