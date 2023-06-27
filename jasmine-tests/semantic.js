@@ -4,14 +4,16 @@ describe('Resultados para header com navegacao: ', () => {
   it('Precisa conter um header com barra de navegacao', () => {
     expect(header).toBeDefined('Seu site nao possui cabecalho');
     if (header) {
-      expect(nav).toBeDefined('Seu cabecalho nao possui uma barra de navegao');
+      expect(nav).toBeDefined(
+        'Seu cabecalho nao possui uma barra de navegacao'
+      );
     }
   });
   if (nav) {
     const navLinks = nav.getElementsByTagName('a');
     const navCount = navLinks.length;
     const has4Links = navCount === 4;
-    it('O cabecalho precisa conter uma logo e 3 links de navacao', () => {
+    it('O cabecalho precisa conter uma logo e 3 links de navegacao', () => {
       expect(has4Links).toEqual(
         true,
         'Sua barra de navegacao nao possui uma logo e 3 links'
@@ -88,7 +90,7 @@ describe('Resultados para footer com navegacao: ', () => {
   it('Precisa conter um footer com barra de navegacao', () => {
     expect(footer).toBeDefined('Seu site nao possui rodape');
     if (footer) {
-      expect(nav).toBeDefined('Seu rodape nao possui uma barra de navegao');
+      expect(nav).toBeDefined('Seu rodape nao possui uma barra de navegacao');
     }
   });
   if (nav) {
