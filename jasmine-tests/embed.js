@@ -1,11 +1,14 @@
-describe('Resulados para figuras com legendas: ', () => {
+describe('Resultados para figuras com legendas: ', () => {
   const figures = document.getElementsByTagName('figure');
 
   it('Precisa conter duas figuras com legendas', () => {
     expect(figures).toBeDefined('Seu site nao possui figuras');
     if (figures) {
       const figuresCount = figures.length;
-      expect(figuresCount).toEqual(2, 'Seu site nao possui duas figuras');
+      expect(figuresCount).toEqual(
+        2,
+        'Seu site nao possui EXATAMENTE duas figuras'
+      );
       if (figuresCount === 2) {
         const captions = [];
         captions.push(...figures[0].getElementsByTagName('figcaption'));
